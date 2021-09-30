@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet
+	">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">	
+		<div class="wrapper header__wrapper">
+		  <h2 class="logo">WD</h2>
+		  <div class="menu">	
+			  <a href="#intro" class=header__link>Об Авторе</a>
+			  <a href="#project" class=header__link>Работы</a>
+			  <a href="#skill" class=header__link>Навыки</a>
+			  <a href="#work" class=header__link>Галерея</a>
+			  <a href="#collback" class=header__link>Контакты</a>
+		  </div>
+		  <div class="header_burgerMenu"></div>			
+        </div>
+	</header>
+	<main class="main">
+		<section class="intro" id="intro">
+			<div class="wrapper intro_wrapper">	
+				<img src="intro.png" alt="Компьютер" class="intro_img">
+				<div class="intro_block">	
+					<h1 class="intro_title"> Дизайн и верстка</h1>
+					<p class="intro_text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quas placeat nam a cupiditate culpa nulla quae adipisci necessitatibus nobis facilis aspernatur commodi, exercitationem vitae esse sunt cumque ab obcaecati.</p>
+					<button class="intro_button">Написать мне</button>
+				</div>	
+			</div>
+		</section>				
+		<section class="info" id="project"> 
+			<div class="wrapper info_wrapper">
+				<h1 class="info_title title">Обо мне</h1>
+	            <p class="info_text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Modi quas placeat nam a cupiditate culpa nulla quae adipisci necessitatibus nobis facilis aspernatur commodi, exercitationem vitae esse sunt cumque ab obcaecati.</p>
+            </div>
+		</section>	
+		<section class="project" id="skill">
+			<div class="wrapper project_wrapper">
+				<div class="project_item">
+					<img src="Group.png" alt="Картинка" class="project_icon">
+					<p class="project_text"><span>40+</span>проектов</p>
+				</div>
+				<div class="project_item">
+					<img src="Group.png" alt="Картинка" class="project_icon">
+					<p class="project_text"><span>40+</span>проектов</p>
+				</div>
+				<div class="project_item">
+					<img src="Group.png" alt="Картинка" class="project_icon">
+					<p class="project_text"><span>40+</span>проектов</p>
+				</div>
+				<div class="project_item">
+					<img src="Group.png" alt="Картинка" class="project_icon">
+					<p class="project_text"><span>40+</span>проектов</p>
+				</div>
+			</div>
+		</section>
+		<section class="skill">
+			<div class="wrapper skill_wrapper">
+				<div class="skill_bar">
+					<h1 class="title skill_title">Мои навыки</h1>
+					<div class="skill_item">
+						<p class="skill_name skill_text1">HTML</p>
+						<div class="skill_progress skill1"></div>
+					</div>
+					<div class="skill_item">
+						<p class="skill_name skill_text2">CSS</p>
+						<div class="skill_progress skill2"></div>
+					</div>
+					<div class="skill_item">
+						<p class="skill_name skill_text3">JavaScript</p>	
+						<div class="skill_progress skill3"></div>
+					</div>
+				</div>
+				<div class="skill_img">
+					<img class="skill_img" src="Rectangle 3.png" alt="Фотография">
+				</div>
+				
+			</div>
+		</section>
+		<section class="work" id="work">
+			<div class="wrapper work_wrapper">
+				<div class="work_wrapper work_text">
+					<h2 class="work_text work_title title">Как я работаю </h2>
+					<p class="work_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Modi quas placeat nam a cupiditate culpa nulla quae adipisci necessitatibus nobis facilis aspernatur commodi, exercitationem vitae esse sunt cumque ab obcaecati.</p>
+				</div> 
+				<div class=" work_wrapper work_video">
+					<video src="Видео.mp4" controls class="work_video"></video>
+				</div>
+			 </div>	 
+		 </section> 
+		<section class="collback" id="collback">
+			<div class="wrapper collback_wrapper">
+				<h2 class="title collback_title"> Хотите веб-сайт?</h2> 
+				<p class="collback_text text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+				<form action="#" class="form">
+					<div class="block_form"> 
+						<input type="text" class="input1 input" placeholder="Ваше имя">
+						<input type="text" class="input2 input" placeholder="Ваш e-mail">
+					</div>
+					<textarea class="input3 input" cols="64" rows="10" placeholder="Сообщение"></textarea>
+					<input class="btn input" type="submit" value="ОТПРАВИТЬ">
+				</form>
+			</div>	
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="wrapper footer_wrapper">
+			<div class="footer_info">
+				<h2 class="footer_autor">Иванов Иван</h2>
+				<p class="footer_copyright">(с) 2018. Все права защищены.</p>
+			</div>
+			<div class="footer_social">
+				<a href="https://vk.com/feed" target="blank">
+					<i class="fa fa-vk vk_icon" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.instagram.com/" target="blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					</a>
+					<a href="https://twitter.com/" target="blank">
+					<i class="fa fa-twitter twitter_icon" aria-hidden="true"></i>
+					</a>
+			</div>
+		</div>
+		
+	</footer>
+</body>
+</html>
